@@ -1,0 +1,21 @@
+body{
+    background-color: lightpink;
+}
+
+#Camera {
+    border:3px solid blue;
+    width: 400px;
+    height: 400px;
+}
+
+#Person {
+font-size: large;
+color: blue;
+}
+
+#Accuracy {
+    font-size: large;
+    color: blue;
+    }
+
+/* https://teachablemachine.withgoogle.com/models/onBblUiHs/ /*

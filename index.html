@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <title> FACE RECOGNITION WEB APP </title>
+</head>
+<body>
+<center>
+    <h1> FACE RECOGNITION WEB APP </h1>
+<p> This model can identify the following people</p>
+    <b id="people"> 
+        Taylor Swift 
+        <hr>
+        Scarlett Johansson
+        <hr>
+        Harry Style's
+        <hr>
+        Sadie Sink
+    </b>
+
+    <br> <br> <div id="Camera"> </div>
+    <br> <br> <div id="Display"> </div>
+    <br> <br> <button class="btn btn-info" onclick="Take_snapshot()"> Take photo </button>
+    <br> <br> <button class="btn btn-success" onclick="Identify()"> Identify </button>
+
+    <p style="font-size: 22px;">Person : <span id="Person"> </span></p>
+    <p style="font-size: 22px;">Accuracy : <span id="Accuracy"> </span></p>
+</center>   
+</body>
+
+<script src="main.js"></script>
+</html>
